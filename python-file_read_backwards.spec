@@ -1,13 +1,10 @@
+#
 # Conditional build:
 %bcond_with	doc	# don't build doc
 %bcond_without	tests	# do not perform "make test"
 %bcond_without	python2 # CPython 2.x module
 %bcond_without	python3 # CPython 3.x module
 
-# NOTES:
-# - 'module' should match the Python import path (first component?)
-# - 'egg_name' should equal to Python egg name
-# - 'pypi_name' must match the Python Package Index name
 %define		module		file_read_backwards
 %define		egg_name	file_read_backwards
 %define		pypi_name	file_read_backwards
