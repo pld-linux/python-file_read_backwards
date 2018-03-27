@@ -10,12 +10,12 @@
 %define		pypi_name	file_read_backwards
 Summary:	Memory efficient way of reading files line-by-line from the end of file
 Name:		python-%{pypi_name}
-Version:	1.1.2
+Version:	1.2.2
 Release:	1
 License:	MIT
 Group:		Libraries/Python
 Source0:	https://github.com/robin81/file_read_backwards/archive/v%{version}.tar.gz
-# Source0-md5:	47b261ae46b3923355c9d15912729c82
+# Source0-md5:	73aa41f1785bee312be542dcc2d1ae60
 URL:		https://pypi.python.org/pypi/file-read-backwards
 BuildRequires:	rpm-pythonprov
 BuildRequires:	rpmbuild(macros) >= 1.714
