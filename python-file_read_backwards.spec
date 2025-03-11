@@ -11,7 +11,7 @@
 Summary:	Memory efficient way of reading files line-by-line from the end of file
 Name:		python-%{pypi_name}
 Version:	1.2.2
-Release:	8
+Release:	9
 License:	MIT
 Group:		Libraries/Python
 Source0:	https://github.com/robin81/file_read_backwards/archive/v%{version}.tar.gz
